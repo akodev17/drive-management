@@ -35,7 +35,7 @@ const FolderMode = () => {
       name: values.name,
       timestamp: serverTimestamp(),
       uid: user?.id,
-      isArhive: false,
+      IsArchive: false,
     }).then(() => {
       form.reset();
       onClose();

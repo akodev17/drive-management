@@ -12,6 +12,7 @@ import Sidebar from "@/components/shared/Sidebar";
 import ModalProvider from "./providers/modal-provider";
 import { Toaster } from "sonner";
 
+
 export default function RootLayout({
   children,
 }: {
